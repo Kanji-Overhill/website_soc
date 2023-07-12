@@ -14,7 +14,10 @@ use App\Http\Controllers\MainController;
 |
 */
 
+// COORPORATIVAS
 Route::get('/','MainController@index');
+Route::get('/quienes-somos','MainController@nosotros');
+Route::get('/contacto','MainController@contacto');
 
 // LINEAS DE NEGOCIO
 Route::get('/credito-hipotecario','MainController@hipotecario');

@@ -116,20 +116,20 @@
         <div class="container mx-auto max-w-6xl px-4 lg:text-xl md:text-lg">
             <div class="row items-center">
                 <figure class="col-sm-6 md:mb-0 mb-10 text-center">
-                    <h3 class="lg:hidden md:text-3xl text-2xl mb-8 text-primary font-bold">Asesor&iacute;a Hipotecaria</h3>
+                    <h3 class="lg:hidden md:text-3xl text-2xl mb-8 text-primary font-bold">Asesor&iacute;a Seguros</h3>
                     <div class="md:pb-[100%] pb-[80%] md:w-full w-4/5 mx-auto block relative">
-                        <img class="rounded-full absolute inset-0 h-full object-cover" src="{{ URL::asset('img/home/Seguros.jpg') }}" alt="Asesor&iacute;a Hipotecaria" />
+                        <img class="rounded-full absolute inset-0 h-full object-cover" src="{{ URL::asset('img/home/Seguros.jpg') }}" alt="Asesor&iacute;a Seguros" />
                     </div>
                 </figure>
                 <div class="md:text-left text-center col-sm-6">
-                    <h3 class="lg:text-3xl md:block hidden mb-8 text-primary font-bold">Asesor&iacute;a Hipotecaria</h3>
+                    <h3 class="lg:text-3xl md:block hidden mb-8 text-primary font-bold">Asesor&iacute;a Seguros</h3>
                     <p>Te ayudamos a elegir y tramitar la mejor alternativa de crédito hipotecario para ti.</p>
                     <br />
 
                     <ul class="list-sinergia"> {{-- Esta clase coloca la sinergia en un before --}}
-                        <li>Crédito Adquisición de vivienda</li>
-                        <li>Crédito Construcción</li>
-                        <li>Crédito Mejora de hipoteca</li>
+                        <li>Seguro de vida</li>
+                        <li>Gastos médicos mayores</li>
+                        <li>Protección del hogar</li>
                     </ul>
                     <br />
 
@@ -141,20 +141,20 @@
             <div class="container mx-auto max-w-6xl px-4 lg:text-xl md:text-lg">
                 <div class="row items-center">
                     <figure class="col-sm-6 md:mb-0 mb-10 text-center">
-                        <h3 class="lg:hidden md:text-3xl text-2xl mb-8 text-primary font-bold">Asesor&iacute;a Empresarial</h3>
+                        <h3 class="lg:hidden md:text-3xl text-2xl mb-8 text-primary font-bold">Asesor&iacute;a Automotr&iacute;z</h3>
                         <div class="md:pb-[100%] pb-[80%] md:w-full w-4/5 mx-auto block relative">
-                            <img class="rounded-full absolute inset-0 h-full object-cover" src="{{ URL::asset('img/home/Credito-de-auto.jpg') }}" alt="Asesor&iacute;a Hipotecaria" />
+                            <img class="rounded-full absolute inset-0 h-full object-cover" src="{{ URL::asset('img/home/Credito-de-auto.jpg') }}" alt="Asesor&iacute;a Automotr&iacute;z" />
                         </div>
                     </figure>
                     <div class="md:text-left text-center col-sm-6 md:order-first">
-                        <h3 class="lg:text-3xl md:block hidden mb-8 text-primary font-bold">Asesor&iacute;a Empresarial</h3>
+                        <h3 class="lg:text-3xl md:block hidden mb-8 text-primary font-bold">Asesor&iacute;a Automotr&iacute;z</h3>
                         <p>Te ayudamos a elegir el financiamiento que tu negocio necesita para crecer.</p>
                         <br />
 
                         <ul class="list-sinergia"> {{-- Esta clase coloca la sinergia en un before --}}
-                            <li>Crédito Anticipo de ventas</li>
-                            <li>Crédito Simple</li>
-                            <li>Crédito Revolvente</li>
+                            <li>Créditode auto</li>
+                            <li>Sustituciónde crédito de auto</li>
+                            <li>Crédito de moto</li>
                         </ul>
                         <br />
 

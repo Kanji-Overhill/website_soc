@@ -44,7 +44,7 @@
                 <div class="w-3/4 px-4 text-left inline-flex items-center md:text-white">
                     <div class="inline-block max-w-full text-primary py-4 md:mr-6">
                         <figure class="flex items-center">
-                            <img class="h-12 max-w-full object-contain ease-in-out duration-300" src="{{ URL::asset('img/Eslogan-tipeado-blanco.png') }}" alt="SOC Seguros" />
+                            <a href="{{ url('') }}"><img class="h-12 max-w-full object-contain ease-in-out duration-300" src="{{ URL::asset('img/Eslogan-tipeado-blanco.png') }}" alt="SOC Seguros" /></a>
                         </figure>
                     </div>
                     <nav class="md:block hidden md:static fixed top-20 bottom-0 inset-x-0 md:bg-transparent bg-white-smoke md:px-0 px-4">

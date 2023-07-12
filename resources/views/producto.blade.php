@@ -11,7 +11,11 @@
                         <div class="text-2xl mb-10">
                             {{ $product['subtitulo'] }}
                         </div>
+                        @if (!empty($product['cta_link']) && !empty($product['cta']))
+
                         <a href="{{ $product['cta_link'] }}" class="text-center block max-w-full w-64 px-4 py-2 rounded-md border border-secundary bg-secundary text-white font-bold uppercase text-xs">{{ $product['cta'] }}</a>
+                        @endif
+                        
                     </div>
                 </div>
             </figure>
@@ -81,73 +85,6 @@
                 </div>
                     
                 @endforeach
-            {{-- 
-                <div class="inline-block px-8">
-                    <a href="https://www.afirme.com/afirme" target="_blank" rel="noreferrer noopener">
-                        <img class="h-10" src="https://socasesores.com/img/home/bancos/hipotecario/Afirme.png" alt="Logotipo Banco Afirme ">
-                    </a>
-                </div>
-                <div class="inline-block px-8">
-                    <a href="https://www.banorte.com/" target="_blank" rel="noreferrer noopener">
-                        <img class="h-10" src="https://socasesores.com/img/home/bancos/hipotecario/Banorte.png" alt="Logotipo banco Banorte">
-                    </a>
-                </div>
-                <div class="inline-block px-8">
-                    <a href="https://www.vepormas.com/" target="_blank" rel="noreferrer noopener">
-                        <img class="h-10" src="https://socasesores.com/img/home/bancos/hipotecario/Bx+.png" alt="Logotipo Seguros Ve por más">
-                    </a>
-                </div>
-                <div class="inline-block px-8">
-                    <a href="https://www.banamex.com/" target="_blank" rel="noreferrer noopener">
-                        <img class="h-10" src="https://socasesores.com/img/home/bancos/hipotecario/Citibanamex.png" alt="Logotipo Banco CityBanamex">
-                    </a>
-                </div>
-                <div class="inline-block px-8">
-                    <a href="https://www.mifel.com.mx/" target="_blank" rel="noreferrer noopener">
-                        <img class="h-10" src="https://socasesores.com/img/home/bancos/hipotecario/Mifel.png" alt="Logotipo Banca Mifel">
-                    </a>
-                </div>
-                <div class="inline-block px-8">
-                    <a href="https://banco.hey.inc/" target="_blank" rel="noreferrer noopener">
-                        <img class="h-10" src="https://socasesores.com/img/home/bancos/hipotecario/Hey_banco.png" alt="Logotipo banco Hey, Banco">
-                    </a>
-                </div>
-                <div class="inline-block px-8">
-                    <a href="https://www.ibanonline.com.mx/" target="_blank" rel="noreferrer noopener">
-                        <img class="h-10" src="https://socasesores.com/img/home/bancos/empresarial/iBAN.png" alt="Logotipo banco iBAN">
-                    </a>
-                </div>
-                <div class="inline-block px-8">
-                    <a href="https://www.ion.com.mx/" target="_blank" rel="noreferrer noopener">
-                        <img class="h-10" src="https://socasesores.com/img/home/bancos/hipotecario/Ion.png" alt="Logotipo banco Ion">
-                    </a>
-                </div>
-                <div class="inline-block px-8">
-                    <a href="https://www.hsbc.com.mx/" target="_blank" rel="noreferrer noopener">
-                        <img class="h-10" src="https://socasesores.com/img/home/bancos/hipotecario/Hsbc.png" alt="Logotipo banco HSBC">
-                    </a>
-                </div>
-                <div class="inline-block px-8">
-                    <a href="https://www.santander.com.mx/" target="_blank" rel="noopener noreferrer">
-                        <img class="h-10" src="https://socasesores.com/img/home/bancos/hipotecario/Santander.png" alt="Logotipo Banco Santander">
-                    </a>
-                </div>
-                <div class="inline-block px-8">
-                    <a href="https://www.scotiabank.com.mx/" target="_blank" rel="noopener noreferrer">
-                        <img class="h-10" src="https://socasesores.com/img/home/bancos/hipotecario/Scotiabank.png" alt="Logotipo Banco Scotiabank">
-                    </a>
-                </div>
-                <div class="inline-block px-8">
-                    <a href="https://tucasaexpress.mx/" target="_blank" rel="noopener noreferrer">
-                        <img class="h-10" src="https://socasesores.com/img/home/bancos/hipotecario/Tu_Casa_Express.png" alt="Logotipo Banco Tu Casa Express">
-                    </a>
-                </div>
-                <div class="inline-block px-8">
-                    <a href="https://yave.mx/" target="_blank" rel="noopener noreferrer">
-                        <img class="h-10" src="https://socasesores.com/img/home/bancos/hipotecario/Yave.png" alt="Logotipo Banco Yave">
-                    </a>
-                </div>                
-             --}}
             </div>
         </div>
     </section>
@@ -155,6 +92,7 @@
 
 @section('scripts')
 
+    {{-- 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -189,4 +127,5 @@
             }]
         });
     </script>
+     --}}
 @endsection

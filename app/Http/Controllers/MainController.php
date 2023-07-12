@@ -9,13 +9,26 @@ use App\Models\GaleriaBanco;
 
 class MainController extends Controller
 {
-    //
+    // COORPORATIVAS
     public function index(Request $request)
     {
         $data['p_hipotecarios'] = Productos::all()->toArray();
         return view('home', $data);
     }
+    
+    public function nosotros(Request $request)
+    {
+        $data['p_hipotecarios'] = Productos::all()->toArray();
+        return view('nosotros', $data);
+    }
+    
+    public function contacto(Request $request)
+    {
+        $data['p_hipotecarios'] = Productos::all()->toArray();
+        return view('contacto', $data);
+    }
 
+    // PRODUCTOS
     public function hipotecario(Request $request)
     {
         $data['productos'] = Productos::where('id_linea_negocio',1)->get()->toArray();
@@ -34,9 +47,10 @@ class MainController extends Controller
 
     public function seguros(Request $request)
     {
-        $data['productos'] = Productos::where('id_linea_negocio',4)->orWhere('id_linea_negocio',5)->get()->toArray();
+        $data['productos_p'] = Productos::where('id_linea_negocio',4)->get()->toArray();
+        $data['productos_e'] = Productos::where('id_linea_negocio',5)->get()->toArray();
         $data['galeria'] = GaleriaBanco::where('rel_id',3)->get()->toArray();
-        return view('hipotecario', $data);
+        return view('seguros', $data);
     }
 
 
