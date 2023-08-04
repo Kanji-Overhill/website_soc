@@ -8,32 +8,32 @@
                 <div class="md:block hidden">
                     <img class="h-screen object-cover" src="{{ URL::asset('img/home/lineas-negocio/Hipotecario.jpg') }}">
                 </div>
-                <div class="md:hidden block pt-[20vh]">
-                    <img class="h-[80vh] object-cover" src="{{ URL::asset('img/home/lineas-negocio/Hipotecario.jpg') }}">
+                <div class="md:hidden block pt-[50vh]">
+                    <img class="h-[35vh] object-cover min-w-[200%] -ml-[80%]" src="{{ URL::asset('img/home/lineas-negocio/Hipotecario.jpg') }}">
                 </div>
             </figure>
             <figure class="m-0">
                 <div class="md:block hidden">
                     <img class="h-screen object-cover" src="{{ URL::asset('img/home/lineas-negocio/Empresarial.jpg') }}">
                 </div>
-                <div class="md:hidden block pt-[20vh]">
-                    <img class="h-[80vh] object-cover" src="{{ URL::asset('img/home/lineas-negocio/Empresarial.jpg') }}">
+                <div class="md:hidden block pt-[50vh]">
+                    <img class="h-[35vh] object-cover min-w-[200%] -ml-[80%]" src="{{ URL::asset('img/home/lineas-negocio/Empresarial.jpg') }}">
                 </div>
             </figure>
             <figure class="m-0">
                 <div class="md:block hidden">
                     <img class="h-screen object-cover" src="{{ URL::asset('img/home/lineas-negocio/Seguros.jpg') }}">
                 </div>
-                <div class="md:hidden block pt-[20vh]">
-                    <img class="h-[80vh] object-cover" src="{{ URL::asset('img/home/lineas-negocio/Seguros.jpg') }}">
+                <div class="md:hidden block pt-[50vh]">
+                    <img class="h-[35vh] object-cover min-w-[200%] -ml-[80%]" src="{{ URL::asset('img/home/lineas-negocio/Seguros.jpg') }}">
                 </div>
             </figure>
             <figure class="m-0">
                 <div class="md:block hidden">
                     <img class="h-screen object-cover" src="{{ URL::asset('img/home/lineas-negocio/Credito-de-auto.jpg') }}">
                 </div>
-                <div class="md:hidden block pt-[20vh]">
-                    <img class="h-[80vh] object-cover" src="{{ URL::asset('img/home/lineas-negocio/Credito-de-auto.jpg') }}">
+                <div class="md:hidden block pt-[50vh]">
+                    <img class="h-[35vh] object-cover min-w-[200%] -ml-[80%]" src="{{ URL::asset('img/home/lineas-negocio/Credito-de-auto.jpg') }}">
                 </div>
             </figure>
         </div>
