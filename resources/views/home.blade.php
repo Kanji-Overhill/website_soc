@@ -11,6 +11,26 @@
                 <div class="md:hidden block pt-[50vh]">
                     <img class="h-[35vh] object-cover min-w-[200%] -ml-[80%]" src="{{ URL::asset('img/home/lineas-negocio/Hipotecario.jpg') }}">
                 </div>
+                <div class="md:pt-20 sm:pt-28 pt-20 absolute inset-0 z-10 md:bg-gradient-to-r bg-gradient-to-b from-white md:via-white/70 via-white md:via-30% to-70% to-transparent">
+                    <div class="container welcome-section h-full">
+                        <div class="row h-full">
+                            <div class="col-sm-6 text-center">
+                                <!--<p class="h1">SOC, empresa líder en asesoría financiera.</p>-->
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <h1 class="text-primary md:pb-10 pb-4 block lg:text-5xl md:text-4xl text-3xl"><strong>Juntos,</strong> lo hacemos real.</h1>
+                                
+                                <p class="lg:text-2xl md:text-xl text-lg">En SOC ayudamos a transformar los sueños de las familias y empresas mexicanas, asesorándolos en las decisiones financieras más importantes de su vida.</p>
+                            </div>
+                            <div class="col-sm-6"></div>
+                            <div class="col-sm-6 md:mt-0 mt-auto md:mb-0 mb-10 banner-btn text-center text-white" style="font-size:1rem">
+                                <a class="bg-ligth-primary rounded-full inline-block align-middle mb-2 font-bold px-8 py-2" href="https://socasesores.com/oficinas/" target="_blank">Ubica la oficina SOC <br> más cercana de ti</a>
+                                <a class="border-secundary border-2 bg-white text-secundary rounded-full inline-flex items-center justify-center md:h-16 align-middle mb-2 font-bold px-8 py-2" href="{{ url('simulador-credito-hipotecario'); }}" target="_blank">Precalif&iacute;cate</a>
+                                {{-- <a class="bg-secundary rounded-md inline-block font-bold px-8 py-2" href="https://socasesores.com/oficinas/" target="_blank">BUSCAR OFICINA</a> --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </figure>
             <figure class="m-0">
                 <div class="md:block hidden">
@@ -18,6 +38,26 @@
                 </div>
                 <div class="md:hidden block pt-[50vh]">
                     <img class="h-[35vh] object-cover min-w-[200%] -ml-[80%]" src="{{ URL::asset('img/home/lineas-negocio/Empresarial.jpg') }}">
+                </div>
+                <div class="md:pt-20 sm:pt-28 pt-20 absolute inset-0 z-10 md:bg-gradient-to-r bg-gradient-to-b from-white md:via-white/70 via-white md:via-30% to-70% to-transparent">
+                    <div class="container welcome-section h-full">
+                        <div class="row h-full">
+                            <div class="col-sm-6 text-center">
+                                <!--<p class="h1">SOC, empresa líder en asesoría financiera.</p>-->
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <h1 class="text-primary md:pb-10 pb-4 block lg:text-5xl md:text-4xl text-3xl"><strong>Juntos,</strong> lo hacemos real.</h1>
+                                
+                                <p class="lg:text-2xl md:text-xl text-lg">En SOC ayudamos a transformar los sueños de las familias y empresas mexicanas, asesorándolos en las decisiones financieras más importantes de su vida.</p>
+                            </div>
+                            <div class="col-sm-6"></div>
+                            <div class="col-sm-6 md:mt-0 mt-auto md:mb-0 mb-10 banner-btn text-center text-white" style="font-size:1rem">
+                                <a class="bg-ligth-primary rounded-full inline-block align-middle mb-2 font-bold px-8 py-2" href="https://socasesores.com/oficinas/" target="_blank">Ubica la oficina SOC <br> más cercana de ti</a>
+                                <a class="border-secundary border-2 bg-white text-secundary rounded-full inline-flex items-center justify-center md:h-16 align-middle mb-2 font-bold px-8 py-2" href="{{ url('comparador-ce'); }}" target="_blank">Precalif&iacute;cate</a>
+                                {{-- <a class="bg-secundary rounded-md inline-block font-bold px-8 py-2" href="https://socasesores.com/oficinas/" target="_blank">BUSCAR OFICINA</a> --}}
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </figure>
             <figure class="m-0">
@@ -27,6 +67,25 @@
                 <div class="md:hidden block pt-[50vh]">
                     <img class="h-[35vh] object-cover min-w-[200%] -ml-[80%]" src="{{ URL::asset('img/home/lineas-negocio/Seguros.jpg') }}">
                 </div>
+                <div class="md:pt-20 sm:pt-28 pt-20 absolute inset-0 z-10 md:bg-gradient-to-r bg-gradient-to-b from-white md:via-white/70 via-white md:via-30% to-70% to-transparent">
+                    <div class="container welcome-section h-full">
+                        <div class="row h-full">
+                            <div class="col-sm-6 text-center">
+                                <!--<p class="h1">SOC, empresa líder en asesoría financiera.</p>-->
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <h1 class="text-primary md:pb-10 pb-4 block lg:text-5xl md:text-4xl text-3xl"><strong>Juntos,</strong> lo hacemos real.</h1>
+                                
+                                <p class="lg:text-2xl md:text-xl text-lg">En SOC ayudamos a transformar los sueños de las familias y empresas mexicanas, asesorándolos en las decisiones financieras más importantes de su vida.</p>
+                            </div>
+                            <div class="col-sm-6"></div>
+                            <div class="col-sm-6 md:mt-0 mt-auto md:mb-0 mb-10 banner-btn text-center text-white" style="font-size:1rem">
+                                <a class="bg-ligth-primary rounded-full inline-block align-middle mb-2 font-bold px-8 py-2" href="https://socasesores.com/oficinas/" target="_blank">Ubica la oficina SOC <br> más cercana de ti</a>
+                                {{-- <a class="border-secundary border-2 bg-white text-secundary rounded-full inline-flex items-center justify-center md:h-16 align-middle mb-2 font-bold px-8 py-2" href="" target="_blank">Precalif&iacute;cate</a> --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </figure>
             <figure class="m-0">
                 <div class="md:block hidden">
@@ -35,25 +94,27 @@
                 <div class="md:hidden block pt-[50vh]">
                     <img class="h-[35vh] object-cover min-w-[200%] -ml-[80%]" src="{{ URL::asset('img/home/lineas-negocio/Credito-de-auto.jpg') }}">
                 </div>
-            </figure>
-        </div>
-        <div class="md:pt-20 sm:pt-28 pt-20 absolute inset-0 z-10 md:bg-gradient-to-r bg-gradient-to-b from-white md:via-white/70 via-white md:via-30% to-70% to-transparent">
-            <div class="container welcome-section h-full">
-                <div class="row h-full">
-                    <div class="col-sm-6 text-center">
-                        <!--<p class="h1">SOC, empresa líder en asesoría financiera.</p>-->
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p>
-                        <h1 class="text-primary md:pb-10 pb-4 block lg:text-5xl md:text-4xl text-3xl"><strong>Juntos,</strong> lo hacemos real.</h1>
-                        
-                        <p class="lg:text-2xl md:text-xl text-lg">En SOC ayudamos a transformar los sueños de las familias y empresas mexicanas, asesorándolos en las decisiones financieras más importantes de su vida.</p>
-                    </div>
-                    <div class="col-sm-6"></div>
-                    <div class="col-sm-6 md:mt-0 mt-auto md:mb-0 mb-10 banner-btn text-center text-white" style="font-size:1rem">
-                        <a class="bg-secundary rounded-md inline-block font-bold px-8 py-2" href="https://socasesores.com/oficinas/" target="_blank">BUSCAR OFICINA</a>
+                <div class="md:pt-20 sm:pt-28 pt-20 absolute inset-0 z-10 md:bg-gradient-to-r bg-gradient-to-b from-white md:via-white/70 via-white md:via-30% to-70% to-transparent">
+                    <div class="container welcome-section h-full">
+                        <div class="row h-full">
+                            <div class="col-sm-6 text-center">
+                                <!--<p class="h1">SOC, empresa líder en asesoría financiera.</p>-->
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <h1 class="text-primary md:pb-10 pb-4 block lg:text-5xl md:text-4xl text-3xl"><strong>Juntos,</strong> lo hacemos real.</h1>
+                                
+                                <p class="lg:text-2xl md:text-xl text-lg">En SOC ayudamos a transformar los sueños de las familias y empresas mexicanas, asesorándolos en las decisiones financieras más importantes de su vida.</p>
+                            </div>
+                            <div class="col-sm-6"></div>
+                            <div class="col-sm-6 md:mt-0 mt-auto md:mb-0 mb-10 banner-btn text-center text-white" style="font-size:1rem">
+                                <a class="bg-ligth-primary rounded-full inline-block align-middle mb-2 font-bold px-8 py-2" href="https://socasesores.com/oficinas/" target="_blank">Ubica la oficina SOC <br> más cercana de ti</a>
+                                <a class="border-secundary border-2 bg-white text-secundary rounded-full inline-flex items-center justify-center md:h-16 align-middle mb-2 font-bold px-8 py-2" href="{{ url('comparador-auto'); }}" target="_blank">Precalif&iacute;cate</a>
+                                {{-- <a class="bg-secundary rounded-md inline-block font-bold px-8 py-2" href="https://socasesores.com/oficinas/" target="_blank">BUSCAR OFICINA</a> --}}
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </figure>
         </div>
     </section>
     
