@@ -17,6 +17,7 @@ use App\Http\Controllers\MainController;
 // COORPORATIVAS
 Route::get('/','MainController@index');
 Route::get('/quienes-somos','MainController@nosotros');
+Route::get('/herramientas-digitales','MainController@herramientas');
 Route::get('/contacto','MainController@contacto');
 
 // LINEAS DE NEGOCIO

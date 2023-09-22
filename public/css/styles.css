@@ -219,3 +219,102 @@ body{
 .main-content ul,
 .main-content ol{
     margin-bottom: 1em; }
+
+.herramientas-digitales{
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+
+.herramientas-digitales > div{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.herramientas-digitales a{
+    display: block;
+    transition: all ease-in-out .3s;
+    border-radius: 30px;
+    border: 1px solid #ececec;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.herramientas-digitales a:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+}
+
+.herramientas-digitales h4{
+    color: var(--secundary-color);
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.15;
+    margin: 25px 0 15px;
+}
+
+.herramientas-digitales figure{
+    margin: 0;
+}
+
+.herramientas-digitales figure img{
+    border-radius: 20px;
+}
+
+.product-description-blocks ul{
+    margin-left: 1.5rem;
+    list-style: none;
+}
+
+.product-description-blocks ul li{
+    position: relative;
+}
+
+.product-description-blocks ul li:before{
+    content: '';
+    position: absolute;
+    top: .5em;
+    left: -.75rem;
+    background: var(--primary-color);
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+}
+
+.product-description-blocks > div:not(:first-child) h3{
+    color: var(--primary-color); !important;
+    font-weight: bold;
+    margin-bottom: 1em;
+    font-size: 1.5rem;
+}
+
+.product-description-blocks > div:not(:first-child) h3:before{
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    margin-right: 1rem;
+}
+
+.product-description-blocks > div:nth-child(4n+3) h3:before{
+    background: var(--ligth-secundary-color);
+    border-bottom-left-radius: 99999px;
+}
+
+.product-description-blocks > div:nth-child(4n+4) h3:before{
+    background: var(--ligth-primary-color);
+    border-top-left-radius: 99999px;
+}
+.product-description-blocks > div:nth-child(4n+1) h3:before{
+    background: var(--ligth-third-color);
+    border-bottom-left-radius: 99999px;
+}
+.product-description-blocks > div:nth-child(4n+2) h3:before{
+    background: var(--third-color);
+    border-top-left-radius: 99999px;
+}

@@ -22,6 +22,12 @@ class MainController extends Controller
         return view('nosotros', $data);
     }
     
+    public function herramientas(Request $request)
+    {
+        $data['p_hipotecarios'] = Productos::all()->toArray();
+        return view('herramientas', $data);
+    }
+    
     public function contacto(Request $request)
     {
         $data['p_hipotecarios'] = Productos::all()->toArray();

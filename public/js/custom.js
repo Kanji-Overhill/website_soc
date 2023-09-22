@@ -31,3 +31,7 @@ $('#close_menu_mobile').click(function(e) {
     $('#btn_menu_mobile').removeClass('hidden');
     $('nav').fadeOut();
 })
+
+$('.title-toggle').on('click', function() {
+    $(this).next('div').slideToggle();
+});

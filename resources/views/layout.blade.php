@@ -41,21 +41,20 @@
     <header class="fixed top-0 inset-x-0 z-50 bg-primary">
         <div class="container mx-auto max-w-6xl px-1">
             <div class="flex md:justify-between justify-start items-center">
-                <div class="w-3/4 px-4 text-left inline-flex items-center md:text-white">
+                <div class="w-full px-4 text-left inline-flex items-center justify-between md:text-white">
                     <div class="inline-block max-w-full text-primary py-4 md:mr-6">
                         <figure class="flex items-center">
-                            <a href="{{ url('') }}"><img class="h-12 max-w-full object-contain ease-in-out duration-300" src="{{ URL::asset('img/Eslogan-tipeado-blanco.png') }}" alt="SOC Seguros" /></a>
+                            <a href="{{ url('') }}"><img class="h-10 max-w-full object-contain ease-in-out duration-300" src="{{ URL::asset('img/Eslogan-tipeado-blanco.png') }}" alt="SOC Seguros" /></a>
                         </figure>
                     </div>
                     <nav class="md:block hidden md:static fixed top-20 bottom-0 inset-x-0 md:bg-transparent bg-white-smoke md:px-0 px-4">
                         <ul>
-                            <li class="px-2 md:py-0 py-2 md:inline-block"><a href="{{ url('quienes-somos') }}">Somos SOC</a></li>
                             <li class="px-2 md:py-0 py-2 md:inline-block">
-                                <a class="toggle-submenu">Servicios</a>
+                                <a class="toggle-submenu">Asesor&iacute;as</a>
                                 
                                 <div class="new-submenu">
                                     <div class="Menu">
-                                        <p class="title">Servicios</p>
+                                        <p class="title">Asesor&iacute;as</p>
                                         <div class="flex">
                                             <ul class="md:w-1/4 px-4 md:pb-6 border-primary border-left">
                                                 <li><a href="{{ url('credito-hipotecario') }}" class="Producto"><u>Asesoría Hipotecaria</u></a></li>
@@ -93,7 +92,7 @@
                                                 <li><a href="{{ url('seguros/vida-empresas') }}">Seguro de vida</a></li>
                                                 <li><a href="{{ url('seguros/gastos-medicos-mayores-empresas') }}">Gastos médicos mayores</a></li>
                                                 <li><a href="{{ url('seguros/seguros-pyme') }}">Seguros Pyme</a></li>
-                                                <li><a href="{{ url('seguros/auto-flotilla') }}">Auto flotilla</a></li>
+                                                <li><a href="{{ url('seguros/auto-flotillas') }}">Auto flotilla</a></li>
                                             </ul>
                                             <span style="width:1.5px" class="bg-primary"></span>
                                             
@@ -107,9 +106,11 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="px-2 md:py-0 py-2 md:inline-block"><a href="{{ url('oficinas') }}">Oficinas</a></li>
-                            <li class="px-2 md:py-0 py-2 md:inline-block"><a href="{{ url('franquicias') }}">Franquicias</a></li>
+                            <li class="px-2 md:py-0 py-2 md:inline-block"><a href="{{ url('herramientas-digitales') }}">Herramientas digitales</a></li>
+                            <li class="px-2 md:py-0 py-2 md:inline-block"><a href="{{ url('oficinas') }}">Buscador de oficinas</a></li>
+                            <li class="px-2 md:py-0 py-2 md:inline-block"><a href="{{ url('franquicias') }}">Venta de franquicias</a></li>
                             <li class="px-2 md:py-0 py-2 md:inline-block"><a href="https://blog.socasesores.com/">Blog</a></li>
+                            <li class="px-2 md:py-0 py-2 md:inline-block"><a href="{{ url('quienes-somos') }}">Somos SOC</a></li>
                             <li class="px-2 md:py-0 py-2 md:inline-block"><a href="{{ url('contacto') }}">Contacto</a></li>
                         </ul>
                     </nav>
@@ -120,6 +121,7 @@
                     {{-- <span>Menú</span> --}}
                 </div>
 
+                {{-- 
                 <div class="md:inline-block hidden bg-transparent w-auto py-0 text-center">
                     @switch(Request::segment(1))
                         @case('credito-auto')
@@ -145,6 +147,8 @@
                     
                 </div>
 
+                 --}}
+
             </div>
         </div>
     </header>
@@ -153,8 +157,9 @@
 	@yield('content')
 
 
+    @include('footer')
 
-    <footer class="w-full pt-2">
+    <footer class="w-full pt-2 hidden">
         <div class="container mx-auto text-center px-4 text-sm py-2">
             <div class="flex md:flex-nowrap flex-wrap justify-between items-center md:mb-5 mb-10">
                 <div class="md:w-auto w-full md:inline-block flex items-center">
@@ -164,15 +169,6 @@
                 <div class="text-left md:text-xl text-lg">
                     <span>Síguenos en:</span>
                     <div class="flex items-center">
-                    {{-- 
-                    <a href="#" class="fab fa-facebook-f w-7 h-7 inline-flex items-center justify-center rounded-full border border-white md:mx-2 mx-1"></a>
-                    <a href="#" class="fab fa-twitter w-7 h-7 inline-flex items-center justify-center rounded-full border border-white md:mx-2 mx-1"></a>
-                    <a href="#" class="fab fa-linkedin-in w-7 h-7 inline-flex items-center justify-center rounded-full border border-white md:mx-2 mx-1"></a>
-                    <a href="#" class="fab fa-youtube w-7 h-7 inline-flex items-center justify-center rounded-full border border-white md:mx-2 mx-1"></a>
-                    <a href="#" class="fab fa-instagram w-7 h-7 inline-flex items-center justify-center rounded-full border border-white md:mx-2 mx-1"></a>
-                    <a href="#" class="fab fa-whatsapp w-7 h-7 inline-flex items-center justify-center rounded-full border border-white md:mx-2 mx-1"></a>
-                    <a href="#" class="fab fa-spotify w-7 h-7 inline-flex items-center justify-center rounded-full border border-white md:mx-2 mx-1"></a>
-                     --}}
 
                         <a class="w-7 h-7 mx-2" href="https://www.facebook.com/SOCAsesores/?ref=ts&amp;fref=ts" target="_blank"><img src="{{ URL::asset('img/iconos/fc.svg') }}" alt="Facebook"></a>
                         <a class="w-7 h-7 mx-2" href="https://twitter.com/SOCasesores?lang=es" target="_blank"><img src="{{ URL::asset('img/iconos/tw.svg') }}" alt="Twitter"></a>
@@ -270,6 +266,8 @@
                         </ul>
                     </div>
                 </div>
+                {{-- 
+                --}}
                 <div class="md:border-none border-b border-white py-2 md:w-1/3 w-full">
                     <h4 class="relative toggle flex items-center justify-between text-primary"><span class="font-bold md:text-lg">Atención al cliente</span> <i class="md:hidden fa fa-chevron-down"></i></h4>
                     <div class="md:block hidden text-left">
