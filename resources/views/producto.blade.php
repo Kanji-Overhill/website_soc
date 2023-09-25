@@ -45,6 +45,17 @@
             </div>
         </div>
     </section>
+    <div id="btn_herramienta_digital" class="fixed inset-x-0 -bottom-16 z-50 text-center bg-primary py-2 shadow-[0_0_10px_rgba(0,0,0,.25)] ease-in-out duration-300">
+
+        @if (isset($herramienta[$product['id_linea_negocio']]))
+        
+        <a href="{{ url($herramienta[$product['id_linea_negocio']]) }}" class="text-center inline-block max-w-full w-64 px-4 py-2 rounded-full border border-white bg-white text-ligth-primary font-bold underline">Simula tu cr&eacute;dito</a>
+        @elseif (isset($herramienta[$linea_negocio['parent']]))
+        
+        <a href="{{ url($herramienta[$linea_negocio['parent']]) }}" class="text-center inline-block max-w-full w-64 px-4 py-2 rounded-full border border-white bg-white text-ligth-primary font-bold underline">Simula tu cr&eacute;dito</a>
+        @endif
+        
+    </div>
     {{-- 
     <section class="md:pt-20 sm:pt-28 pt-20 mb-10">
         <div class="slick-slider">
@@ -227,6 +238,27 @@
                 })(marker, i));
             }
         }
-        
+
+        $(function() {
+            let max_scroll = $(window).outerHeight();
+            let t = $(window).scrollTop();
+            // $('#btn_herramienta_digital').animate({bottom:t+'px'},400);
+
+            if( t >= (max_scroll / 2)){
+                $('#btn_herramienta_digital').removeClass('-bottom-16').addClass('bottom-0');
+            } else{
+                $('#btn_herramienta_digital').addClass('-bottom-16').removeClass('bottom-0');
+            }
+        });
+        $(window).on('scroll',function(){
+            let max_scroll = $(window).outerHeight();
+            let t = $(window).scrollTop();
+
+            if( t >= (max_scroll / 2)){
+                $('#btn_herramienta_digital').removeClass('-bottom-16').addClass('bottom-0');
+            } else{
+                $('#btn_herramienta_digital').addClass('-bottom-16').removeClass('bottom-0');
+            }
+        });
     </script>
 @endsection
